@@ -1,11 +1,38 @@
 @import url("normalize.css");
 
+/* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: yellow;
 }
 
+/* -------------------- HEADINGS AND TYPE */
+
 h1 {
     background-color: pink;
     color: blue;
-
 }
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
