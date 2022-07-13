@@ -1,4 +1,5 @@
 @import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
 
 /* -------------------- GLOBAL DEFAULTS */
 
@@ -8,6 +9,9 @@
 
 body {
     background-color: #6b84ff;
+
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -23,6 +27,15 @@ video {
 
 /* -------------------- HEADINGS AND TYPE */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    
+    font-family: 'Lobster', cursive;
+}
 
 
 h1 {
