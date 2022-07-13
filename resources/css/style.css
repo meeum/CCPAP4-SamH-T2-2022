@@ -7,8 +7,10 @@
 }
 
 body {
-    background-color: #ffe66b;
+    background-color: #6b84ff;
 }
+
+
 
 
 img,
@@ -45,7 +47,7 @@ p {
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: #fff;
+    background-color: #ffe66b;
 
     max-width: 1000px;
     margin-left: auto;
@@ -62,3 +64,8 @@ p {
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
+
+.content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
