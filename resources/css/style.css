@@ -12,7 +12,6 @@ body {
 
 
 
-
 img,
 iframe,
 video {
@@ -55,6 +54,8 @@ p {
     padding: 3%;
 }
 
+
+
 /* -------------------- HEADER */
 
 /* -------------------- NAVIGATION */
@@ -67,5 +68,12 @@ p {
 
 .content-item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+    .content-item {
+        grid-template-columns: 1fr 1fr;
+    }
 }
