@@ -7,10 +7,29 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #6b84ff;
+:root { 
+	--main-bg-color: #6b84ff; 
 
-    font-family: 'Roboto', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+
+    --heading-font: 'Lobster', cursive;
+
+
+
+	/* --main-text-color: #34495e;
+	--link-color: #ff5b5e; 
+	--border-color: #97a4b1; 
+	--alternative-bg-color: #191931; 
+	--alternative-text-color: #e8eef4; 
+
+	--vertical-spacer: 20px; */
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+
+    font-family: var(--main-font);
 
     font-size: 18px;
     line-height: 1.6;
@@ -47,7 +66,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Lobster', cursive;
+    font-family: var(--heading-font);
     color: #222;
 }
 
@@ -100,6 +119,7 @@ p {
 
 
 /* -------------------- HEADER */
+
 
 /* -------------------- NAVIGATION */
 
