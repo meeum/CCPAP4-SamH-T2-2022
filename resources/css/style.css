@@ -54,9 +54,8 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    
-}
+
+
 
 
 /* -------------------- HEADINGS AND TYPE */
@@ -160,7 +159,12 @@ header {
     padding: 0;
     text-align: center;
 
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.main-nav.open {
+    max-height: 100vh;
 }
 
 .main-nav a {
@@ -185,6 +189,7 @@ header {
     .main-nav {
         display: flex;
         justify-content: space-between;
+        max-height: unset;
     }
 
     .nav-prompt {
