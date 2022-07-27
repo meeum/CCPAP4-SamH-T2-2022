@@ -159,6 +159,10 @@ header {
 
 /* -------------------- FOOTER */
 
+footer .layout-wide {
+    text-align: center;
+}
+
 /* -------------------- MODULES */
 
 .content-item {
